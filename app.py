@@ -1,4 +1,3 @@
-
 import os
 import sys
 import zipfile
@@ -11,10 +10,10 @@ import io
 from gensim import corpora, models
 from gensim.models.ldamodel import LdaModel
 from gensim.models import TfidfModel
-import pyLDAvis
-from datetime import datetime.gensim_models as gensimvis
-import pyLDAvis
 from datetime import datetime
+import pyLDAvis
+import pyLDAvis.gensim_models as gensimvis
+
 
 # Set up dynamic file paths
 if getattr(sys, 'frozen', False):
